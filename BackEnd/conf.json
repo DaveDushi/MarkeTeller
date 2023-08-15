@@ -1,0 +1,8 @@
+{
+  "stocks": ["AAPL", "GOOGL", "AMZN"],
+  "interval": 60,
+  "api_key": "16382af4c50763c64bf4ac7089f5dbf1",
+  "db_uri": "mongodb+srv://david2:david2@cluster0.zhgkvyp.mongodb.net/?retryWrites=true&w=majority",
+  "api_key_GPT": "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"
+}
+

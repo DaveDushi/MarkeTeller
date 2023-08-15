@@ -1,0 +1,10 @@
+2023-08-15 04:23:40,506 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:81
+ * Running on http://10.0.0.7:81
+2023-08-15 04:23:40,506 INFO : [33mPress CTRL+C to quit[0m
+2023-08-15 04:23:40,509 INFO :  * Restarting with stat
+2023-08-15 04:23:41,907 WARNING :  * Debugger is active!
+2023-08-15 04:23:41,912 INFO :  * Debugger PIN: 819-623-523
+2023-08-15 04:25:07,696 INFO : 127.0.0.1 - - [15/Aug/2023 04:25:07] "[32mGET /stock-pick HTTP/1.1[0m" 302 -
+2023-08-15 04:25:08,515 INFO : 127.0.0.1 - - [15/Aug/2023 04:25:08] "GET /search/LLY HTTP/1.1" 200 -
