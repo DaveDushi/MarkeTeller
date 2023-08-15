@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-title {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 20px 0;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.Stock-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  color: #333;
+}
+
+.Stock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.Stock button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.Stock button:hover {
+  background-color: #0056b3;
+}
+
+.Stock p {
+  margin: 0;
+}
+
+.StockReport {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.StockReport h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.StockReport p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.StockReport pre {
+  font-family: 'Courier New',monospace;
+}
+
+.spinner {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg);}
+}
