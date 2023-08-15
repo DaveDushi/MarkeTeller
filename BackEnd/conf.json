@@ -1,6 +1,6 @@
 {
-  "api_key": "Your api key from financialmodelingprep.com ",
-  "db_uri": "your mongodb uri",
-  "api_key_GPT": "your chatgpt api key"
+  "api_key": "your_financialmodelingprep_api_key_here",
+  "db_uri": "your_mongodb_uri_here",
+  "api_key_GPT": "your_openai_api_key_here"
 }
 

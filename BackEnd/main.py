@@ -4,7 +4,6 @@ import os
 import random
 import openai
 import requests
-import time
 import json
 import logging
 from filters import *
@@ -17,7 +16,7 @@ from aiFunctions import *
 ROOT_FOLDER = "./FrontEnd"
 app = Flask(__name__, static_folder=os.path.join(ROOT_FOLDER, 'static'))
 app.config.from_object(Config)
-app.debug = True
+app.debug = False
 cors = CORS(app)  # allows cors for our frontend
 
 # logger setup
